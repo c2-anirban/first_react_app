@@ -1,0 +1,22 @@
+.container {
+  margin-top: 10%;
+}
+.left-bg {
+  background-color: red;
+}
+.right-bg {
+  background-color: white;
+}
+.custom-icons {
+  margin: 2%;
+}
+.round-btn {
+  border: 2px solid white;
+  background: transparent;
+  border-radius: 20px !important;
+  color: white;
+  background-color: red !important;
+}
+.msg-custom {
+  margin: 5% 20% 5% 20%;
+}
