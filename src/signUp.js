@@ -55,7 +55,7 @@ const SignUp = () => {
                   />
                 </div>
                 <a href="/">
-                  <button className="btn btn-danger round-btn mt-2">
+                  <button className="btn btn-sm btn-danger round-btn mt-2">
                     SIGN UP
                   </button>
                 </a>

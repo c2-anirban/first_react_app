@@ -11,6 +11,7 @@
   margin: 2%;
 }
 .round-btn {
+  width: 100px !important;
   border: 2px solid white;
   background: transparent;
   border-radius: 20px !important;
