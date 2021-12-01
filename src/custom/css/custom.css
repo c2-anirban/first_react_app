@@ -1,6 +1,7 @@
 .container {
   display: flex;
   margin-top: 7%;
+  border-radius: 5px !important;
 }
 .card-body {
   padding: 5rem 4rem !important;
@@ -11,7 +12,7 @@
 .left-bg {
   padding: 3rem 2rem;
   justify-content: center;
-  background-color: red;
+  background: linear-gradient(rgba(248, 2, 2, 0.945), rgb(175, 0, 0));
 }
 .right-bg {
   padding: 2rem 2rem;
@@ -26,7 +27,10 @@
   background: transparent;
   border-radius: 20px !important;
   color: white;
-  background-color: red !important;
+  background: linear-gradient(
+    rgba(248, 2, 2, 0.945),
+    rgb(175, 0, 0)
+  ) !important;
 }
 .msg-custom {
   margin: 5% 20% 5% 20%;
@@ -39,6 +43,7 @@
   transition: fade;
   background-color: silver;
   text-align: center;
+  border-radius: 2px !important;
 }
 .input-group {
   display: flex;
@@ -46,4 +51,8 @@
 }
 .form-control {
   background-color: silver !important;
+}
+.col-md-2 {
+  position: relative;
+  justify-content: center;
 }
