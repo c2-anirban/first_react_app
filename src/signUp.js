@@ -35,24 +35,34 @@ const SignUp = () => {
 
               <form>
                 <p>or use your email for registration</p>
-                <div className="form-group">
-                  <input type="text" name="name" required placeholder="Name" />
-                </div>
-                <div className="form-group mt-2">
-                  <input
-                    type="email"
-                    name="email"
-                    required
-                    placeholder="Email"
-                  />
-                </div>
-                <div className="form-group mt-2">
-                  <input
-                    type="password"
-                    name="password"
-                    required
-                    placeholder="Password"
-                  />
+                <div className="input-group">
+                  <div className="form-group">
+                    <input
+                      type="text"
+                      name="name"
+                      required
+                      placeholder="Name"
+                      className="form-control"
+                    />
+                  </div>
+                  <div className="form-group mt-2">
+                    <input
+                      type="email"
+                      name="email"
+                      required
+                      placeholder="Email"
+                      className="form-control"
+                    />
+                  </div>
+                  <div className="form-group mt-2">
+                    <input
+                      type="password"
+                      name="password"
+                      required
+                      placeholder="Password"
+                      className="form-control"
+                    />
+                  </div>
                 </div>
                 <a href="/">
                   <button className="btn btn-sm btn-danger round-btn mt-2">

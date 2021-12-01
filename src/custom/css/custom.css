@@ -1,10 +1,20 @@
 .container {
-  margin-top: 10%;
+  display: flex;
+  margin-top: 7%;
+}
+.card-body {
+  padding: 5rem 4rem !important;
+}
+.col-md-12 {
+  margin-top: -4%;
 }
 .left-bg {
+  padding: 3rem 2rem;
+  justify-content: center;
   background-color: red;
 }
 .right-bg {
+  padding: 2rem 2rem;
   background-color: white;
 }
 .custom-icons {
@@ -20,4 +30,20 @@
 }
 .msg-custom {
   margin: 5% 20% 5% 20%;
+}
+.mediaBtn {
+  font-size: 1.9rem;
+}
+.form-group {
+  width: 400px !important;
+  transition: fade;
+  background-color: silver;
+  text-align: center;
+}
+.input-group {
+  display: flex;
+  justify-content: center;
+}
+.form-control {
+  background-color: silver !important;
 }
