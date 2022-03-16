@@ -23,8 +23,7 @@ jobs:
       - name: create ci
         run: npm install
       - name: install eslint
-        run: npm install @eslint/github-action
-      - uses: eslint/github-action@v0
+        run: npm run lint
       - name: build
         run: npm run build --if-present
       - name: test
