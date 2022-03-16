@@ -22,12 +22,8 @@ jobs:
 
       - name: create ci
         run: npm install
+      - uses: eslint/github-action@v0
       - name: build
         run: npm run build --if-present
       - name: test
         run: npm run test
-  eslint:
-     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - uses: stefanoeb/eslint-action@1.0.2
