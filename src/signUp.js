@@ -63,7 +63,7 @@ const SignUp = () => {
                       type="number"
                       name="zip"
                       pattern="[0-9]{6}"
-                      maxlength="6"
+                      maxLength="6"
                       required
                       placeholder="Zip code"
                       className="form-control"
