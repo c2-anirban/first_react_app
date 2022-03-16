@@ -1,5 +1,4 @@
 const SignUp = () => {
-  //new
   return (
     <div className="container">
       <div className="card shadow p-8 mb-9 bg-body rounded">
@@ -12,6 +11,7 @@ const SignUp = () => {
               <div className="justify-content-center msg-custom">
                 <span>
                   To keep connected with us please login with your personal info
+                  please
                 </span>
               </div>
               <div>

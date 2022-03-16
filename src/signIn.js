@@ -13,7 +13,7 @@ const SignIn = () => {
               <div className="justify-content-center msg-custom">
                 <span>
                   To keep connected with us please Signup with your personal
-                  info
+                  info please
                 </span>
               </div>
               <a href="/">
