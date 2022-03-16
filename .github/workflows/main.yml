@@ -26,5 +26,7 @@ jobs:
         run: npm run build --if-present
       - name: test
         run: npm run test
-      - name: Run ESLint
-        run: eslint . --ext .js,.jsx,.ts,.tsx
+  eslint:
+    steps:
+      - uses: actions/checkout@v1
+      - uses: stefanoeb/eslint-action@1.0.2
