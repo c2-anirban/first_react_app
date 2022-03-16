@@ -11,7 +11,6 @@ const SignUp = () => {
               <div className="justify-content-center msg-custom">
                 <span>
                   To keep connected with us please login with your personal info
-                  please
                 </span>
               </div>
               <div>
