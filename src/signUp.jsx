@@ -2,7 +2,6 @@ import React from 'react';
 
 function SignUp() {
   return (
-    // test
     <div className="container">
       <div className="card shadow p-8 mb-9 bg-body rounded">
         <div className="card-body">
