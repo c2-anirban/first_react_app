@@ -1,4 +1,6 @@
-const SignUp = () => {
+import React from 'react';
+
+function SignUp() {
   return (
     <div className="container">
       <div className="card shadow p-8 mb-9 bg-body rounded">
@@ -15,7 +17,9 @@ const SignUp = () => {
               </div>
               <div>
                 <a href="/">
-                  <button className="round-btn">SIGN IN</button>
+                  <button type="button" className="round-btn">
+                    SIGN IN
+                  </button>
                 </a>
               </div>
             </div>
@@ -85,7 +89,7 @@ const SignUp = () => {
                     <input
                       type="password"
                       name="password"
-                      minlength="8"
+                      minLength="8"
                       pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
                       title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
                       required
@@ -95,7 +99,10 @@ const SignUp = () => {
                   </div>
                 </div>
                 <a href="/">
-                  <button className="btn btn-sm btn-danger round-btn mt-2">
+                  <button
+                    type="button"
+                    className="btn btn-sm btn-danger round-btn mt-2"
+                  >
                     SIGN UP
                   </button>
                 </a>
@@ -106,6 +113,6 @@ const SignUp = () => {
       </div>
     </div>
   );
-};
+}
 
 export default SignUp;

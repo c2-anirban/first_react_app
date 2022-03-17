@@ -1,8 +1,7 @@
-import { FaFacebook } from "react-icons/fa";
-import { FaGooglePlusG } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaFacebook, FaGooglePlusG, FaLinkedinIn } from 'react-icons/fa';
+import React from 'react';
 
-const SignIn = () => {
+function SignIn() {
   return (
     <div className="container">
       <div className="card shadow p-8 mb-9 bg-body rounded">
@@ -17,7 +16,9 @@ const SignIn = () => {
                 </span>
               </div>
               <a href="/">
-                <button className="round-btn">SIGN UP</button>
+                <button type="button" className="round-btn">
+                  SIGN UP
+                </button>
               </a>
             </div>
             <div className="col-md-6 right-bg">
@@ -92,7 +93,10 @@ const SignIn = () => {
                   </div>
                 </div>
                 <a href="/">
-                  <button className="btn btn-sm btn-danger round-btn mt-2">
+                  <button
+                    type="button"
+                    className="btn btn-sm btn-danger round-btn mt-2"
+                  >
                     SIGN IN
                   </button>
                 </a>
@@ -103,6 +107,6 @@ const SignIn = () => {
       </div>
     </div>
   );
-};
+}
 
 export default SignIn;
